@@ -13,11 +13,10 @@ cd chatbot_app
 python -m venv .venv
 # Windows PowerShell:
 .venv\Scripts\Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
+
 
 pip install -r requirements.txt
-copy .env.example .env   # Windows (use: cp .env.example .env on macOS/Linux)
+copy .env.example .env   
 ```
 
 Open `.env` and set:
